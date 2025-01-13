@@ -1,6 +1,6 @@
-@use 'colors' as *;
-@use 'typography' as *;
-@use 'sizes' as *;
+@use "colors" as *;
+@use "typography" as *;
+@use "sizes" as *;
 
 $active-theme: $light;
 
@@ -36,7 +36,7 @@ $flex-group-gap: $size-4;
 
 $hero-padding-block: clamp(15rem, 15vh, 20rem);
 $section-padding-block: clamp(5rem, 10vh, 6rem);
-   
+
 $card-body-padding: $size-8;
 
 $container-min-margin-inline: $size-4;
@@ -65,7 +65,7 @@ $button-font-family: $body-font-family;
 $button-font-size: $body-font-size;
 $button-font-weight: $font-weight-bold;
 $button-text-transform: none;
-$button-padding: .75em 2em;
+$button-padding: 0.75em 2em;
 $button-border: 0;
 $button-border-radius: $size-2;
 
